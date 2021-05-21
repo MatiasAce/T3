@@ -1,0 +1,36 @@
+#container{
+    border: 5px solid black;
+    margin: 1px;
+    padding: 5px;
+
+}
+
+#juego{
+    display: grid;
+    border: solid 2px green;
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows: repeat(3 , 150px);
+    height: auto;
+    width:min-content;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.panel{
+    border: 2px dashed violet;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.panel:hover{
+    background-color: yellow;
+}
